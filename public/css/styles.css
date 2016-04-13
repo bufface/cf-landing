@@ -1,12 +1,26 @@
 .ui.menu {
-	font-size: 20px;
+	font-size: 1em;
 	margin-bottom: 0px;
+  display: none;
+}
+
+.first {
+  min-height: 700px;
 }
 
 .bg-black {
 	background-color: black;
 	min-width: 100%;
 	min-height: 100%;
+}
+
+.ui.header {
+  margin-top: 3em !important;
+  font-size: 4.5em !important;
+}
+.slog{
+  color: rgba(255,255,255,.9);
+  font-weight: normal;
 }
 
 video#bgvid { 
@@ -18,15 +32,26 @@ video#bgvid {
   width: auto;
   height: auto;
   z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-40%);
-  -moz-transform: translateX(-50%) translateY(-40%);
-  -webkit-transform: translateX(-50%) translateY(-40%);
-  transform: translateX(-50%) translateY(-40%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   background: url(polina.jpg) no-repeat;
   background-size: cover;
+  /*
   filter:blur(5px) brightness(0.5);
      -o-filter:blur(5px) brightness(0.5);
      -ms-filter:blur(5px) brightness(0.5);
      -moz-filter:blur(5px) brightness(0.5);
      -webkit-filter:blur(5px) brightness(0.5);
+  */
+  filter:brightness(0.5);
+     -o-filter:brightness(0.5);
+     -ms-filter:brightness(0.5);
+     -moz-filter:brightness(0.5);
+     -webkit-filter:brightness(0.5);
+}
+
+.curses {
+  background-color: white;
 }
