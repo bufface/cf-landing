@@ -1,21 +1,21 @@
 .ui.menu {
 	font-size: 1em;
 	margin-bottom: 0px;
-  display: none;
 }
 
 .first {
   min-height: 700px;
 }
 
-.bg-black {
-	background-color: black;
-	min-width: 100%;
-	min-height: 100%;
+.second {
+  padding-top: 120px !important;
+}
+
+.ui.text {
+	margin-top: 6em !important;
 }
 
 .ui.header {
-  margin-top: 3em !important;
   font-size: 4.5em !important;
 }
 .slog{
